@@ -1,4 +1,4 @@
-# Tests.py
+# Tests.py voor Travis demo
 
 def test_een():
 	# Test of een plus een twee is
@@ -10,7 +10,7 @@ def test_twee():
 	
 def test_drie():
 	# Test of je door 0 kan delen
-	print 3/0
+	print 3/1
 	
 def test_vier():
 	# Meerdere checks bij elkaar
@@ -25,4 +25,4 @@ from nose.tools import *
 @raises(ZeroDivisionError) #
 def test_vijf():
 	# Deze test hoort een ZeroDivisionError te gooien
-	0/0
+	1/1 = 3/3
